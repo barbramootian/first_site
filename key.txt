@@ -1,0 +1,289 @@
+The key points from this module are:
+JavaScript variables are containers for storing data values.
+   
+    All JavaScript variables must be identified with unique names.
+
+Creating a variable in JavaScript is called "declaring" a variable. 
+   
+    function substitute () {var myValue = document.getElementByldQ.value;}
+
+           - function name is substitute
+           - variable name is myValue
+
+var - declare a JavaScript variable
+var myName; a correctly declared variable in JavaScript
+var myName = "John"; a correctly declared value to a variable
+identifiers • name is given to the unique names that help identify JavaScript variables
+
+Variable types
+• var length = 16; // Number
+• var lastName = ''Johnson"; // String
+• var cars = ["Saab", 'Volvo", "BMW"]; // Array
+• var person = null; // Null value
+• var x = {firstName:"John"}; // Object
+• var x; // x is undefined
+• var x = true; // Boolean
+• var car =// Empty value
+
+Some general rules for constructing names for variables (unique identifiers):
+• Names can contain letters, digits, underscores, and dollar signs.
+• Names must begin with a letter.
+• Names can begin with $ and _
+• Names are case sensitive (y and Y are different variables).
+• Reserved words (like JavaScript keywords) cannot be used as names.
+
+HTML events are "things" that happen to HTML elements. When JavaScript is used in HTML pages, JavaScript can "react" on these events.
+
+Examples of HMTL events which JavaScript can react to:
+• An HTML web page has finished loading
+• An HTML input field was changed
+• An HTML button was clicked
+
+HTML events:
+• onchange - An HTML element has been changed
+• onclick - The user clicks an HTML element
+• onmouseover - The user moves the mouse over an HTML element
+• onmouseout - The user moves the mouse away from an HTML element
+• onkeydown - The user pushes a keyboard key
+• onload - The browser has finished loading the page
+
+Methods that can be used to let JavaScript work with events:
+• HTML event attributes can execute JavaScript code directly
+• HTML event attributes can call JavaScript functions
+• You can assign your own event handler functions to HTML elements
+
+The main types of errors in JavaScript code:
+• Syntax errors - Code is improperly formatted
+• Runtime Exceptions - Missing reference to function or variable
+
+To minimize handling errors in JavaScript you must insulate your application against exceptions caused by relying on external resources.
+
+Assignment operators
+= an 'assignment" operator in JavaScript
++= assignment operator - adds a value to a variable
+*= assignment operator - multiplies a variable
+/= assignment operator - divides a variable
+-= assignment operator - subtracts a value from a variable
+   -   
+
+
+   JavaScript concept
+   The key points from this module are:
+Conditional statements
+      if                - Use this to specify a block of code to be executed, if a specified condition is true
+      else           - Use this to specify a block of code to be executed, if the same condition is false.
+      else if        - Use this to specify a new condition to test, if the first condition is false.
+      switch       - Use this to specify many alternative blocks of code to be executed
+
+Equality operators
+      ==equal to
+      = equal value and equal type
+      != not equal
+      !== not equal value or not equal type
+
+Equality operators «« and != are considered "evil" because they perform implicit type coercion.
+
+
+'falsy' values:
+      false
+      0 (zero)
+      " " (empty string)
+      null
+      undefined
+      NaN (a special Number value meaning Not-a-Number!)
+'truthy' values:
+      "O" (zero in quotes)
+      "false” (false in quotes)
+      empty functions
+
+JavaScript function - a block of code designed to perform a particular task.
+Function parameters - the names listed in the function definition.
+Function arguments - the real values received by the function when it is invoked.
+A function without a name is called Anonymous function
+
+A JavaScript function is defined with the function keyword, followed by a name, followed by
+parentheses ().
+
+The following can be contained in a function name
+• Letters
+• Digits
+• Underscores
+• Dollar signs
+
+
+JavaScript loops:
+      for - loops through a block of code a number of times.
+      for/in - loops through the properties of an object.
+      while - loops through a block of code while a specified condition is true.
+      do/while - loops through a block of code while a specified condition is true.
+
+The Array object is used to store multiple values in a single variable
+Using an array literal is the easiest way to create a JavaScript Array.
+
+Syntax:
+      - var array-name = [iteml, item2, ...];
+      - Arrays with named indexes are called Associative arrays
+
+JavaScript scope:
+      Local scope - Variables declared within a JavaScript function
+      Global scope - A variable declared outside a function
+      Automatically Global scope - Assign a value to a variable that has not been declared.
+
+     
+      
+
+      JavaScript and the Document Object Model
+      The key points from this module are:
+The following methods can be used to add JavaScript to web pages:
+Link web pages to external JavaScript files:
+            - File type is given to external JavaScript files: .js file type
+            - Values written for JavaScript objects name:value pairs
+
+Add JavaScript code using the onload method in body tag
+Add JavaScript code using script tag within header of web page
+
+You can reference different types of external JavaScript file in a web page.
+In JavaScript objects are variables too that can contain many values.
+In JavaScript methods are actions that can be performed on objects.
+Use an object literal to define and create a JavaScript object.
+
+person is the name of the object in the following object literal
+var person = {firstName:"Helen", lastName:"Smith", age:50, eyeColor:''blue”};
+
+The following can be used to access object properties in JavaScript:
+objectName.propertyName
+objectName["propertyName"]
+
+The acronym DOM stands for Document Object Model
+With the HTML DOM, JavaScript can access and change all the elements of an HTML document.
+The HTML DOM model Is constructed as a tree of objects.
+
+By accessing the HTML DOM JavaScript can perform the following:
+      • JavaScript can change all the HTML elements in the page
+      • JavaScript can change all the CSS styles in the page
+      • JavaScript can add new HTML elements and attributes
+      • JavaScript can change all the HTML attributes in the page
+      • JavaScript can remove existing HTML elements and attributes
+      • JavaScript can react to all existing HTML events in the page
+
+      Jquery.
+  The key points from this module are:
+The following are considered to be the main concerns of jQuery:
+      • DOM
+      • AJAX
+      • Events
+      • Effects
+
+The following are advantages of working with jQuery:
+      - jQuery solves the DOM ready versus window.onload dilema.
+      - jQuery supports a simplified event handling model.
+
+With regards to the DOM the following are advantages of working with jQuery:
+      - jQuery provides a consistent cross-browser way of working with the DOM
+      - jQuery provides a simplified technique for accessing elements in the DOM using CSS Selectors.
+
+With regards to AJAX the following are advantages of working with jQuery:
+      - jQuery provides several simple methods to exchange data with a web browser using AJAX.
+      - jQuery provides easy ways to work with data that is returned via an AJAX call.
+
+With regards to effects the following are advantages of working with jQuery:
+     - jQuery has built-in effects and animations.
+     - jQuery allows plugins to be used for additional effects.  
+
+
+With regards to AJAX the following are advantages of working with jQuery:
+      - jQuery provides several simple methods to exchange data with a web browser using AJAX.
+      - jQuery provides easy ways to work with data that is returned via an AJAX call.
+
+With regards to effects the following are advantages of working with jQuery:
+      - jQuery has built-in effects and animations.
+      - jQuery allows plugins to be used for additional effects.
+
+jQuery is based on the JavaScript Library
+The following are the versions of jQuery available for downloading
+      • Production version
+      • Development version
+
+Production version - this is for your live website because it has been minified and compressed
+Development version -this is for testing and development (uncompressed and readable code) 
+
+
+jQuery is based on the JavaScript Library
+The following are the versions of jQuery available for downloading:
+      • Production version
+      • Development version
+
+Production version - this is for your live website because it has been minified and compressed
+Development version -this is for testing and development (uncompressed and readable code)
+
+The following are ways to start using jQuery on your web site:
+
+Download the jQuery library from jQuery.com
+      - Include jQuery from a CDN (e.g. Microsoft)
+
+The following can be used as a short-cut to refer to jQuery:
+                       $sign
+
+All jQuery methods are inside a document ready event to prevent any jQuery code from running before the document is finished loading (is ready).
+
+The jQuery team has created the following short method for the document ready event.
+    $(function(){
+       // jQuery methods go here... 
+       });
+
+addClass() - Adds one or more classes to the selected elements
+removeClass() - Removes one or more classes from the selected elements
+toggleClass() - Toggles between adding/removing classes from the selected elements
+css() - Sets or returns the style attribute
+
+The jQuery addClass() method adds class attributes to different elements.
+You can select many elements when using the jQuery addClassO method.
+You can specify multiple classes within the jQuery addClass() method.
+
+$(":header")                      -All header elements <h1>, <h2>..
+$(":empty")                       -All elements that are empty
+$(":parent")                       -All elements that are a parent of another element
+$(":focus")                        -The element that currently has focus
+$("p:hidden")                    -All hidden <p> elements
+$("input:not(:empty)")    -All input elements that are not empty
+$("tr:even")                       -All even <tr> elements
+$(":contains(Hello')")      -All elements which contains the text "Hello"    
+
+
+$(document).ready()      Execute a function when the document is fully loaded
+click()                                Attaches an event handler function to an HTML element
+mouseenter()                   Attaches an event handler function to an HTML element
+dblclick()                           Attaches an event handler function to an HTML element
+focus()                              Attaches an event handler function to an HTML form field
+
+The following are the benefits of using unobtrusive JavaScript:
+      Usability Does not draw the attention of the user.
+      Graceful degradation Scripts never generate error messages even when they fail.
+      Accessibility If any script fails, the page still delivers its core functions and information.
+
+      Separation All JavaScript code is maintained separately.
+
+The following are unobtrusive JavaScript techniques:
+      Separation of behavior from markup
+      Namespace (Global abatement)
+      Degrading gracefully
+
+
+The acronym JSON stands for JavaScript Object Notation.
+
+The following describe the JSON syntax rules
+      Data is in name/value pairs
+      Data is separated by commas
+      Curly braces hold objects
+      Square brackets hold arrays
+
+It is possible to create arrays in JSON.
+
+For AJAX applications, JSON has replaced XML as it is faster and easier to use than XML.
+
+In JavaScript a closure is an inner function that has access to the outer (enclosing) function's variables.
+
+In JavaScript the closure has the following scope chains:
+     It has access to its own scope
+     It has access to the outer function's variables
+     It has access to the global variables
