@@ -1,0 +1,97 @@
+The key points from this module are:
+CSS styles are sets of 'name:value' pairs that represent visual attributes to apply to one or more HTML elements.
+
+Web browsers already have a built-in style sheet that you can override with your own style sheet.
+
+CSS Selectors are used to attach a style to one or more HTML elements.
+
+If two or more selectors apply to the same element an order of precedence determines which style is applied.
+
+Types of CSS Selectors
+      element selector   Example: p
+      .class selector       Example: .intro
+      #id selector            Example: #firstname
+      <selector>/             Example: <selector>/paragraph
+
+CSS Selectors Examples:
+div, p - Selects all <div> elements and all <p> elements
+div p - Selects all <p> elements inside <div> elements
+div > p - Selects all <p> elements where the parent is a <div> element
+
+a*b - Universal, 'b' within 'a' regardless of 'b's parents
+a > b - 'b' is a direct child of 'a'
+a + b - 'b' is a sibling of 'a' immediately following 'a'
+a ~ b - 'b' is a 'general' sibling of’a'
+
+
+The following values can be used to control inheritance:
+• inherit
+• none
+• normal
+• auto
+
+Cascading order of precedence:
+• User
+• Inline
+• Media
+• Important
+• Specific
+• Order
+• Inherited from Parent
+• Browser Default
+
+The following can be used to insert comments into CSS code;  /* This is a comment */
+
+The following allow you define colour in CSS3
+• Hexadecimal values
+• RGB values
+• HSL values
+
+
+The following are attributes of the background element in CSS3
+     background-image
+     background-repeat 
+     background-attachment 
+
+Inline Style Elements - Elements stack horizontally
+
+Block Style Elements - Elements stack vertically
+ 
+The following CSS style can make HTML5 elements display as inline elements
+     display:inline
+
+The following HTML5 elements are inline elements:
+<a> element
+<code> element
+<i> element
+<u> element
+<img> element
+<label> element
+<legend> element
+<nav> element
+<small> element
+
+The following HTML5 elements are block-style elements
+      <article> element
+      <body> element
+      <div> element
+      <h1> element
+      <form> element
+      <table> element
+
+Overflow styles in CSS3:
+overflow:auto;
+overflow:scroll;
+overflow:hidden;
+overflow:visible;
+
+- correct formatting for the margin style in CSS3 margin: [top] [right] [bottom] [left]
+- correct formatting for the padding style in CSS3 padding: [top] [right] [bottom] [left]
+
+Types of cursor styles in CSS3:
+cursor:default;
+cursor:crosshair;
+cursor:text;
+cursor:e-resize;
+
+sans serif font types:  Arial, Tahoma, Verdana.                 serif font types: Arno, Courier, Times New Roman.

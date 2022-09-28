@@ -1,0 +1,53 @@
+The key points from this module are: 
+The latest version of HMTL is HTML5. The latest version of CSS is CSS3.
+
+HTML is the acronym for Hyper-text Markup Language
+CSS is the acronym for Cascading Style Sheets
+
+When saving a .html file in Notepad the encoding should be changed to UTF-8
+
+Web pages have the following file extension name: .html
+
+The file extension for a CSS file: .css
+
+ <> keys are used to create tags in HTML
+Example: Paragraph element:
+<p> the opening paragraph tag
+</p> the closing paragraph tag
+
+<!DOCTYPE html> declares an HTML5 document:
+<html> </html> define the boundaries of an HTML web page
+
+Every HTML web page contains Head section and Body section:
+<head> </head> represent the head section of a web page
+<body> </body> represent the body section of a web page 
+
+Cascading Style Sheets:
+A correctly formatted CSS style: hi {font-size:2em; >, use {} keys
+
+Progressive enhancement: a strategy for web design which emphasizes accessibility, semantic HTML
+markup, and external stylesheet and scripting technologies.
+
+
+Web links:
+      Absolute URL - href="http://www.alison.com"
+      Relative URL - href="another.html"
+
+Attributes:
+      <html lang="en"> the 'lang' is known as the Attribute of the tag
+      <!DOCTYPE html> declares an HTML5 document
+      <html> </html> define the boundaries of an HTML web page
+
+Every HTML web page contains Head section and Body section:
+      <head> </head> represent the head section of a web page
+      <body> </body> represent the body section of a web page
+
+Global attributes:
+Global attributes that can be added to virtually any HTML5 element:
+• id attribute
+• name attribute
+• class attribute
+
+id attribute - Provides programmatic access via JavaScript (on client)
+name attribute - Provides programmatic access (on the server)
+class attribute - CSS hook for stylings

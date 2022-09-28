@@ -1,0 +1,65 @@
+The key points from this module are:
+Headings:  (h1, h2, h3, h4, h5 and h6)
+     For heading elements the h1 element represents the highest ranking heading 
+     The h6 element represents the lowest ranking heading.
+
+There is a default style setting for all of the heading elements: h1, h2, h3, h4, h5 and h6. 
+
+The img element needs the following attributes
+      • src=" "
+      • alt=" " 
+     src attribute - The location of the image file
+     alt attribute - Alternative name for image (important for screen readers to identify and describe image)
+
+The following are types of lists in HTML5:
+• ul element - Unordered list
+• ol element - Ordered list
+• dl element - Description list (in HTML5)
+• ul element - represents a list of items, where the order of the items is not important
+• ol element - represents a list of items, where the items have been intentionally ordered
+• dl element - represents an association list consisting of zero or more name-value group
+
+
+Description lists:
+     <dl> element - description list (in HTML5)
+     <dt> element - description term
+     <dd> element - description ps (in HTML5)
+
+The following are elements for creating table:
+• tbody element
+• thead element
+• tr element
+• td element
+• th element
+
+tr element - represents a row of cells in a table
+td element - represents a data cell in a table
+th element - represents a header cell in a table
+
+
+
+working with forms
+
+The key points from this module are:
+The following elements are used to create a form 
+     <form> </form>
+
+The following are important attributes associated with form element
+      method-'" attribute
+      action-’" attribute
+      link="" attribute
+
+HTTP POST - encode form data in body of HTTP message
+HTTP GET - encode form and other data in URL
+
+The following is a correctly formatted form element:
+<form method-'POST"action="form.aspx"></form>
+
+The attribute that limits the number of characters which can be typed into a form text box
+        maxlength-' " attribute
+
+fieldset element: represents a set of form controls optionally grouped under a common name.
+legend element: represents a caption for the rest of the contents of the legend element's parent fieldset element.
+label element: represents a caption in a user interface.
+select element: represents a control for selecting amongst a set of options.
+textarea element: represents a multi-line plain text edit control.
